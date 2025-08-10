@@ -21,3 +21,5 @@ build/NightreignModInstaller/localpycs/pyimod02_importers.pyc
 build/NightreignModInstaller/localpycs/pyimod03_ctypes.pyc
 build/NightreignModInstaller/localpycs/pyimod04_pywin32.pyc
 build/NightreignModInstaller/localpycs/struct.pyc
+dist/NightreignModInstaller.exe
+dist/NightreignModInstaller.spec
