@@ -10,24 +10,6 @@
       "description": "Allows seamless multiplayer co-op gameplay",
       "install_path": "",
       "required": true
-    },
-    {
-      "name": "Unlock The Framerate",
-      "nexus_url": "https://www.nexusmods.com/eldenringnightreign/mods/25?tab=files&file_id=1185",
-      "direct_url": "https://files.nexus-cdn.com/7800/25/UnlockTheFps-25-0-0-3-1751552454.zip?md5=BhYOvRyI7T1v5JaVP7Xkcg&expires=1754853452&user_id=16487389",
-      "download_name": "UnlockTheFps.zip",
-      "description": "Removes 60 FPS cap for smoother gameplay",
-      "install_path": "mods",
-      "required": true
-    },
-    {
-      "name": "Elden Mod Loader",
-      "nexus_url": "https://www.nexusmods.com/eldenring/mods/117?tab=files&file_id=8919",
-      "direct_url": "https://files.nexus-cdn.com/4333/117/EldenModLoader-117-3-2-1662569069.zip?md5=mkdIO_ZUs3U_Hm0kBogU4A&expires=1754853465&user_id=16487389",
-      "download_name": "EldenModLoader.zip",
-      "description": "Essential mod loader for Elden Ring mods",
-      "install_path": "",
-      "required": true
     }
   ],
   "optional_mods": [
@@ -41,6 +23,26 @@
       "required": false
     }
   ],
-  "config_url": "https://raw.githubusercontent.com/YOUR_USERNAME/nightreign-mods/main/mod_urls_config.json",
+  "fps_unlock_bundle": [
+    {
+      "name": "Elden Mod Loader",
+      "nexus_url": "https://www.nexusmods.com/eldenring/mods/117?tab=files&file_id=8919",
+      "direct_url": "https://files.nexus-cdn.com/4333/117/EldenModLoader-117-3-2-1662569069.zip?md5=mkdIO_ZUs3U_Hm0kBogU4A&expires=1754853465&user_id=16487389",
+      "download_name": "EldenModLoader.zip",
+      "description": "Required for FPS unlock mod",
+      "install_path": "",
+      "required": false
+    },
+    {
+      "name": "Unlock The Framerate",
+      "nexus_url": "https://www.nexusmods.com/eldenringnightreign/mods/25?tab=files&file_id=1185",
+      "direct_url": "https://files.nexus-cdn.com/7800/25/UnlockTheFps-25-0-0-3-1751552454.zip?md5=BhYOvRyI7T1v5JaVP7Xkcg&expires=1754853452&user_id=16487389",
+      "download_name": "UnlockTheFps.zip",
+      "description": "Removes 60 FPS cap for smoother gameplay",
+      "install_path": "mods",
+      "required": false
+    }
+  ],
+  "config_url": "https://raw.githubusercontent.com/JellyKnees/Nightreign_Mods_Script/main/mod_urls_config.json",
   "notes": "Update direct_url fields when links expire. The installer will automatically fetch this config."
 }
