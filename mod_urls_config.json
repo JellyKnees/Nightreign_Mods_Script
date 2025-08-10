@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-01-10",
+  "mods": [
+    {
+      "name": "Seamless Co-op",
+      "nexus_url": "https://www.nexusmods.com/eldenringnightreign/mods/3?tab=files&file_id=1756",
+      "direct_url": "https://supporter-files.nexus-cdn.com/7800/3/Nightreign%20Seamless%20Co-op%20v1.0.3-3-1-03-1754438411.zip?md5=AI8ZV5CfNikurdsSY9NPxQ&expires=1754852747&user_id=16487389",
+      "download_name": "Nightreign_Seamless_Co-op.zip",
+      "description": "Allows seamless multiplayer co-op gameplay",
+      "install_path": "",
+      "required": true
+    },
+    {
+      "name": "Unlock The Framerate",
+      "nexus_url": "https://www.nexusmods.com/eldenringnightreign/mods/25?tab=files&file_id=1185",
+      "direct_url": "https://files.nexus-cdn.com/7800/25/UnlockTheFps-25-0-0-3-1751552454.zip?md5=BhYOvRyI7T1v5JaVP7Xkcg&expires=1754853452&user_id=16487389",
+      "download_name": "UnlockTheFps.zip",
+      "description": "Removes 60 FPS cap for smoother gameplay",
+      "install_path": "mods",
+      "required": true
+    },
+    {
+      "name": "Elden Mod Loader",
+      "nexus_url": "https://www.nexusmods.com/eldenring/mods/117?tab=files&file_id=8919",
+      "direct_url": "https://files.nexus-cdn.com/4333/117/EldenModLoader-117-3-2-1662569069.zip?md5=mkdIO_ZUs3U_Hm0kBogU4A&expires=1754853465&user_id=16487389",
+      "download_name": "EldenModLoader.zip",
+      "description": "Essential mod loader for Elden Ring mods",
+      "install_path": "",
+      "required": true
+    }
+  ],
+  "optional_mods": [
+    {
+      "name": "Elden Ring Nightreign Ultrawide Fix",
+      "nexus_url": "https://www.nexusmods.com/eldenringnightreign/mods/35?tab=files&file_id=708",
+      "direct_url": "https://files.nexus-cdn.com/7800/35/UltrawideFix-35-1-0-1-1749942897.zip?md5=iQkR7poBW99cObscLQs8zQ&expires=1754853482&user_id=16487389",
+      "download_name": "UltrawideFixNightreign.zip",
+      "description": "Fixes ultrawide display issues and aspect ratios",
+      "install_path": "mods",
+      "required": false
+    }
+  ],
+  "config_url": "https://raw.githubusercontent.com/YOUR_USERNAME/nightreign-mods/main/mod_urls_config.json",
+  "notes": "Update direct_url fields when links expire. The installer will automatically fetch this config."
+}
